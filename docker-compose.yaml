@@ -10,7 +10,6 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
     environment:
       - "TZ=Europe/Madrid"
-      - "LOG_LEVEL=info"
       - "DIUN_WATCH_WORKERS=20"
       - "DIUN_WATCH_SCHEDULE=0 0 * * *"
       - "DIUN_WATCH_JITTER=30s"
