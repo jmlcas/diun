@@ -21,6 +21,11 @@ services:
       - "DIUN_NOTIF_GOTIFY_TOKEN=xxxxxxxxxxxx" # get your token from Gotify UI
       - "DIUN_NOTIF_GOTIFY_PRIORITY=1"
       - "DIUN_NOTIF_GOTIFY_TIMEOUT=10s"
+
+#      - "DIUN_NOTIF_NTFY_ENDPOINT=https://ntfy.sh"
+#      - "DIUN_NOTIF_NTFY_TOPIC=diun-acce65a0-b777-46f9-9a11-58c67d1579c4"
+#      - "DIUN_NOTIF_NTFY_TAGS=whale"
+#      - "DIUN_NOTIF_NTFY_TIMEOUT=10s"      
     labels:
       - "diun.enable=true"
   
